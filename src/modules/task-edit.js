@@ -1,4 +1,4 @@
-import { populateTaskList } from './styling.js';
+import { populateTaskList } from './styling.js'; // eslint-disable-line
 import { saveLocal, delTask, arrTasks } from './data.js';
 import { resetIcon } from './reset.js';
 

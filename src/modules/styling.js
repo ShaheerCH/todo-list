@@ -1,6 +1,6 @@
 import { arrTasks } from './data.js';
 import { resetTasks } from './reset.js';
-import { addIconEvent, addInputDescEvent } from './task-edit.js';
+import { addIconEvent, addInputDescEvent } from './task-edit.js'; // eslint-disable-line
 import checkChanged from './toggle.js';
 
 const compileTaskItem = (task) => {
