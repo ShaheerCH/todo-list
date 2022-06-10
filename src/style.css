@@ -120,4 +120,5 @@ li {
 .item-btns {
   margin-left: auto;
   margin-right: 10px;
+  /* stylelint-disable-next-line no-missing-end-of-source-newline */
 }

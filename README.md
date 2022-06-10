@@ -8,7 +8,7 @@
 
 ## Built With
 
-- HTML/CSS/JS-ES6
+- HTML/CSS/JS-Es6
 - NPM
 - Webpack
 - ES Modules
