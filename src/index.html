@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>To Do List</h1>
+        <div class="new-task-ph" id="new-task-ph">
+          <input
+            type="text"
+            id="new-task"
+            placeholder="Add New Task"
+            required
+          />
+          <i class="bi bi-arrow-return-left"></i>
+        </div>
+        <ul class="ul-tasks" id="ul-tasks"></ul>
+        <button class="btn-clear" type="button" id="btn-clear">
+          Clear All Completed Task
+        </button>
+      </div>
+      <script type="module" src="/src/index.js"></script>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 30px;
+  padding-left: 10px;
+  font-weight: 500;
+  align-self: center;
+  padding-bottom: 10px;
+}
+
+header,
+footer {
+  position: fixed;
+  height: 36px;
+  padding: 10px 20px;
+  background-color: #d3d3d3;
+  width: 100vw;
+}
+
+header {
+  top: 0;
+}
+
+footer {
+  bottom: 0;
+}
+
+main {
+  width: 100vw;
+  height: calc(100vh - 72px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasks {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 48px;
+  border-bottom: 1px solid #d3d3d3;
+  padding-left: 10px;
+}
+
+.container {
+  width: 50%;
+  min-width: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d3d3d3;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 90%);
+  padding: 15px 0;
+}
+
+.btn-clear {
+  border: none;
+  background-color: transparent;
+  margin-top: 15px;
+}
+
+.btn-clear:hover {
+  cursor: pointer;
+  color: crimson;
+}
+
+#new-task-ph,
+ul,
+li {
+  width: 100%;
+}
+
+#new-task-ph {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+  padding: 5px 10px;
+}
+
+.task-desc,
+#new-task {
+  border: none;
+  outline: none;
+  height: 100%;
+  font-size: 16px;
+}
+
+.completed {
+  color: red;
+  text-decoration-line: line-through;
+}
+
+#new-task {
+  width: calc(100% - 44px);
+}
+
+.task-desc {
+  width: fit-content;
+}
+
+.item-btns {
+  margin-left: auto;
+  margin-right: 10px;
+  /* stylelint-disable-next-line no-missing-end-of-source-newline */
+}
